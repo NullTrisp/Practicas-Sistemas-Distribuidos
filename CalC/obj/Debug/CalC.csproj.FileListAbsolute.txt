@@ -8,3 +8,29 @@ C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.csproj.GenerateResource.cache
 C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.csproj.CoreCompileInputs.cache
 C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.exe
 C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.pdb
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\CalC.exe.config
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\CalC.exe
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\CalC.pdb
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\FluentAssertions.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.abstractions.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.assert.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.core.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.execution.desktop.dll
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\FluentAssertions.pdb
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\FluentAssertions.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.abstractions.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.assert.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.core.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\bin\Debug\xunit.execution.desktop.xml
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.csproj.AssemblyReference.cache
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.Properties.Resources.resources
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.View.resources
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.csproj.GenerateResource.cache
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.csproj.CoreCompileInputs.cache
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.csproj.CopyComplete
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.exe
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\CalC\obj\Debug\CalC.pdb

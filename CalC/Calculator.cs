@@ -6,25 +6,36 @@ using System.Threading.Tasks;
 
 namespace CalC
 {
-    class Calculator
+    public static class Calculator
     {
+        private static void sanitizeStrings(string a, string b)
+        {
+            if (a[a.Length - 1].Equals('-') || b[b.Length - 1].Equals('-'))
+            {
+                throw new Exception();
+            }
+        }
         public static string Sum(string a, string b)
         {
+            sanitizeStrings(a, b);
             return (Convert.ToDecimal(a) + Convert.ToDecimal(b)).ToString("0.0000");
         }
 
         public static string Subs(string a, string b)
         {
+            sanitizeStrings(a, b);
             return (Convert.ToDecimal(a) - Convert.ToDecimal(b)).ToString("0.0000");
         }
 
         public static string Div(string a, string b)
         {
+            sanitizeStrings(a, b);
             return (Convert.ToDecimal(a) / Convert.ToDecimal(b)).ToString("0.0000");
         }
 
         public static string Mult(string a, string b)
         {
+            sanitizeStrings(a, b);
             return (Convert.ToDecimal(a) * Convert.ToDecimal(b)).ToString("0.0000");
         }
 

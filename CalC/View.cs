@@ -170,14 +170,30 @@ namespace CalC
 
         private void button9_Click(object sender, EventArgs e)
         {
-            this.operatorsLoad((sender as Button).Text);
+            if (this.label1.Text != "0" && this.label2.Visible)
+            {
+                this.label2.Visible = false;
+                this.label1.Text = Calculator.Subs(this.label2.Text, this.label1.Text);
+            }
+            else
+            {
 
+                this.operatorsLoad((sender as Button).Text);
+            }
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            this.operatorsLoad((sender as Button).Text);
+            if (this.label1.Text != "0" && this.label2.Visible)
+            {
+                this.label2.Visible = false;
+                this.label1.Text = Calculator.Sum(this.label2.Text, this.label1.Text);
+            }
+            else
+            {
 
+                this.operatorsLoad((sender as Button).Text);
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
