@@ -1,0 +1,6 @@
+C:\Users\ADMIN\source\repos\Ejercicio_2\bin\Debug\Ejercicio_2.exe.config
+C:\Users\ADMIN\source\repos\Ejercicio_2\bin\Debug\Ejercicio_2.exe
+C:\Users\ADMIN\source\repos\Ejercicio_2\bin\Debug\Ejercicio_2.pdb
+C:\Users\ADMIN\source\repos\Ejercicio_2\obj\Debug\Ejercicio_2.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Ejercicio_2\obj\Debug\Ejercicio_2.exe
+C:\Users\ADMIN\source\repos\Ejercicio_2\obj\Debug\Ejercicio_2.pdb

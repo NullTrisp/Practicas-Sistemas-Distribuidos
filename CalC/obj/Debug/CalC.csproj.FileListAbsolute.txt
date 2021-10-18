@@ -1,0 +1,10 @@
+C:\Users\nicoc\source\repos\CalC\bin\Debug\CalC.exe.config
+C:\Users\nicoc\source\repos\CalC\bin\Debug\CalC.exe
+C:\Users\nicoc\source\repos\CalC\bin\Debug\CalC.pdb
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.csproj.AssemblyReference.cache
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.Properties.Resources.resources
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.View.resources
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.csproj.GenerateResource.cache
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.csproj.CoreCompileInputs.cache
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.exe
+C:\Users\nicoc\source\repos\CalC\obj\Debug\CalC.pdb
