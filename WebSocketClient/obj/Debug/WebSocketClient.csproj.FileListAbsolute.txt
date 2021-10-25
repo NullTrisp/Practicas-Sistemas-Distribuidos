@@ -1,0 +1,7 @@
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\bin\Debug\WebSocketClient.exe.config
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\bin\Debug\WebSocketClient.exe
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\bin\Debug\WebSocketClient.pdb
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\obj\Debug\WebSocketClient.csproj.AssemblyReference.cache
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\obj\Debug\WebSocketClient.csproj.CoreCompileInputs.cache
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\obj\Debug\WebSocketClient.exe
+D:\1Main\Libraries\Documents\Coding\C#\Sistemas Distribuidos\WebSocketClient\obj\Debug\WebSocketClient.pdb

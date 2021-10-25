@@ -13,6 +13,7 @@ namespace CalC
     public partial class View : Form
     {
         private string operandus = "";
+        private Connect server = new Connect("127.0.0.1");
         public View()
         {
             InitializeComponent();
@@ -154,7 +155,9 @@ namespace CalC
             if (this.label1.Text != "0" && this.label2.Visible)
             {
                 this.label2.Visible = false;
-                this.label1.Text = Calculator.Sum(this.label2.Text, this.label1.Text);
+
+                this.server.SendMessage("sum");
+                //this.label1.Text = Calculator.Sum(this.label2.Text, this.label1.Text);
             }
             else
             {
@@ -173,7 +176,8 @@ namespace CalC
             if (this.label1.Text != "0" && this.label2.Visible)
             {
                 this.label2.Visible = false;
-                this.label1.Text = Calculator.Subs(this.label2.Text, this.label1.Text);
+                this.server.SendMessage("subs");
+                //this.label1.Text = Calculator.Subs(this.label2.Text, this.label1.Text);
             }
             else
             {
@@ -187,7 +191,8 @@ namespace CalC
             if (this.label1.Text != "0" && this.label2.Visible)
             {
                 this.label2.Visible = false;
-                this.label1.Text = Calculator.Sum(this.label2.Text, this.label1.Text);
+                this.server.SendMessage("sum");
+                //this.label1.Text = Calculator.Sum(this.label2.Text, this.label1.Text);
             }
             else
             {
@@ -201,7 +206,8 @@ namespace CalC
             if (this.label1.Text != "0" && this.label2.Visible)
             {
                 this.label2.Visible = false;
-                this.label1.Text = Calculator.Div(this.label2.Text, this.label1.Text);
+                this.server.SendMessage("sum");
+                //this.label1.Text = Calculator.Div(this.label2.Text, this.label1.Text);
             }
             else
             {
@@ -222,22 +228,23 @@ namespace CalC
             {
                 case "+":
                     {
-                        this.label1.Text = Calculator.Sum(this.label1.Text, this.label2.Text);
+                        this.label1.Text = this.server.SendMessage($"sum,{this.label2.Text},{this.label1.Text}");
                         break;
                     }
                 case "-":
                     {
-                        this.label1.Text = Calculator.Subs(this.label2.Text, this.label1.Text);
+
+                        this.label1.Text = this.server.SendMessage($"subs,{this.label2.Text},{this.label1.Text}");
                         break;
                     }
                 case "÷":
                     {
-                        this.label1.Text = Calculator.Div(this.label2.Text, this.label1.Text);
+                        this.label1.Text = this.server.SendMessage($"div,{this.label2.Text},{this.label1.Text}");
                         break;
                     }
                 case "x":
                     {
-                        this.label1.Text = Calculator.Mult(this.label2.Text, this.label1.Text);
+                        this.label1.Text = this.server.SendMessage($"mult,{this.label2.Text},{this.label1.Text}");
                         break;
                     }
             }
@@ -247,7 +254,8 @@ namespace CalC
         {
             if (this.label2.Visible)
             {
-                this.label1.Text = Calculator.Percentage(this.label1.Text, this.label2.Text);
+                this.server.SendMessage("percentage");
+                //this.label1.Text = Calculator.Percentage(this.label1.Text, this.label2.Text);
             }
         }
 
@@ -259,7 +267,8 @@ namespace CalC
             }
             else
             {
-                this.label1.Text = Calculator.DivideByX(this.label1.Text);
+                this.server.SendMessage("divByX");
+                //this.label1.Text = Calculator.DivideByX(this.label1.Text);
             }
         }
 
@@ -267,7 +276,7 @@ namespace CalC
         {
             if (this.label1.Text.CompareTo("0") > 0)
             {
-                this.label1.Text = Calculator.sqrRoot(this.label1.Text);
+                this.label1.Text = this.server.SendMessage($"sqrRoot,{this.label1.Text}");
             }
         }
 
@@ -275,7 +284,8 @@ namespace CalC
         {
             if (this.label1.Text.CompareTo("0") > 0)
             {
-                this.label1.Text = Calculator.Pow(this.label1.Text);
+                this.server.SendMessage("pow");
+                //this.label1.Text = Calculator.Pow(this.label1.Text);
             }
         }
 

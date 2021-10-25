@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\CalC.csproj": {
-                "projectPath": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\CalC.csproj"
+              "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\ClientCalC.csproj": {
+                "projectPath": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\ClientCalC.csproj"
               }
             }
           }
@@ -88,11 +88,11 @@
         }
       }
     },
-    "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\CalC.csproj": {
+    "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\ClientCalC.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\CalC.csproj",
-        "projectName": "CalC",
-        "projectPath": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\CalC.csproj"
+        "projectUniqueName": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\ClientCalC.csproj",
+        "projectName": "ClientCalC",
+        "projectPath": "D:\\1Main\\Libraries\\Documents\\Coding\\C#\\Sistemas Distribuidos\\CalC\\ClientCalC.csproj"
       },
       "frameworks": {
         "net472": {}
